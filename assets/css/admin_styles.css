@@ -1,0 +1,130 @@
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #0044cc;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #0044cc;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    background-color: #218838; 
+}
+
+.header h1 {
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.header .btn {
+    background-color: rgb(51, 228, 16); 
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.menu {
+    width: 250px;
+    position: fixed;
+    height: 100%;
+    background-color: #0044cc;
+    color: white;
+    padding-top: 20px;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #575757;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    width: calc(100% - 250px);
+}
+
+.main-content {
+    padding: 20px;
+    margin-left: 250px;
+    transition: margin-left 0.3s;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.manage-section, .existing-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.manage-section h2, .existing-section h2 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form select,
+form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: none; 
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
